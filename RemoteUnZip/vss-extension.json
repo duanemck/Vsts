@@ -1,84 +1,76 @@
 {
-  "manifestVersion": 1,
-  "id": "remoteunziosaeid",
-  "version": "1.0.11",
-  "name": "RemoteUnzip",
-  "publisher": "SaeidBabaei",
-  "public": true,
-  "description": "Easy and fast extract your zip files on remote machine !",
-  "targets": [
-    {
-      "id": "Microsoft.VisualStudio.Services"
-    }
-  ],
-  "icons": {
-    "default": "11.png"
-  },
-  "categories": [
-    "Build and release"
-  ],
-  "tags": [
-    "Unzip",
-    "Extract",
-    "Remote",
-    "Decompress",
-    "Zip"
-  ],
-  "screenshots": [
-    {
-      "path": "screen1.png"
-    }
-  ],
-  "content": {
-    "details": {
-      "path": "overview.md"
+    "manifestVersion": 1,
+    "id": "remoteunzipduanemckibbin",
+    "version": "1.1.5",
+    "name": "RemoteUnzipMultiple",
+    "publisher": "duanemckibbin",
+    "public": true,
+    "description": "Easy and fast extract your zip files on multiple remote machines!",
+    "targets": [{
+        "id": "Microsoft.VisualStudio.Services"
+    }],
+    "icons": {
+        "default": "11.png"
     },
-    "license": {
-      "path": "details.md"
-    }
-  },
-  "links": {
-    "home": {
-      "uri": "https://www.saeidbabaei.com"
-    },
-    "getstarted": {
-      "uri": "https://github.com/sbabaei/Vsts/blob/master/ConfigTransformation/overview.md"
-    },
-    "learn": {
-      "uri": "https://github.com/sbabaei/Vsts/blob/master/ConfigTransformation/overview.md"
-    },
-    "support": {
-      "uri": "https://github.com/sbabaei/Vsts/tree/master/ConfigTransformation"
-    },
-    "repository": {
-      "uri": "https://github.com/sbabaei/Vsts"
-    },
-    "issues": {
-      "uri": "https://github.com/sbabaei/Vsts/issues"
-    }
-  },
-  "branding": {
-    "color": "rgb(4,156,142)",
-    "theme": "dark"
-  },
-  "scopes": [ ],
-  "baseUri": "https://github.com/sbabaei/Vsts",
-   "files": [
-        {
-            "path": "RemoteUnZip"
-        }
+    "categories": [
+        "Build and release"
     ],
-  "contributions": [
-    {
-      "id": "remoteunzip-SaeidBabaei",
-      "type": "ms.vss-distributed-task.task",
-      "description": "Remote Unzip",
-      "targets": [
-        "ms.vss-distributed-task.tasks"
-      ],
-      "properties": {
-        "name": "RemoteUnZip"
-      }
-    }
-  ]
+    "tags": [
+        "Unzip",
+        "Extract",
+        "Remote",
+        "Decompress",
+        "Zip"
+    ],
+    "screenshots": [{
+        "path": "screen1.png"
+    }],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "details.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://www.continuousdeveloper.com"
+        },
+        "getstarted": {
+            "uri": "https://github.com/duanemck/VstsRemoteUnzip/blob/master/RemoteUnZip/overview.md"
+        },
+        "learn": {
+            "uri": "https://github.com/duanemck/VstsRemoteUnzip/blob/master/RemoteUnZip/overview.md"
+        },
+        "support": {
+            "uri": "https://github.com/duanemck/VstsRemoteUnzip"
+        },
+        "repository": {
+            "uri": "https://github.com/duanemck/VstsRemoteUnzip"
+        },
+        "issues": {
+            "uri": "https://github.com/duanemck/VstsRemoteUnzip/issues"
+        }
+    },
+    "branding": {
+        "color": "rgb(4,156,142)",
+        "theme": "dark"
+    },
+    "scopes": [],
+    "baseUri": "https://github.com/duanemck/VstsRemoteUnzip",
+    "files": [{
+        "path": "RemoteUnZip"
+    }],
+    "contributions": [{
+        "id": "remoteunzip-duanemckibbin",
+        "type": "ms.vss-distributed-task.task",
+        "description": "Remote Unzip (Multiple)",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "RemoteUnZip"
+        }
+    }]
 }
